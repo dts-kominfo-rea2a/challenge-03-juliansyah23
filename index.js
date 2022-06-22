@@ -25,7 +25,7 @@ const listBelanjaan = function (ArrData){
 	let result = []
 	
 	for(let i=0; i < ArrData.length ; i++){
-		result.push(`- ${ArrData[i].nama} x${ArrData[i].kuantitas}`);
+		result.push(`- ${ArrData[i].nama} x ${ArrData[i].kuantitas}`);
 	}		
 	return result;
 };
